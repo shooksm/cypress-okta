@@ -1,0 +1,36 @@
+{
+  "name": "cypress-okta",
+  "version": "1.0.0",
+  "description": "Okta authentication library for Cypress UI tests",
+  "main": "src/index.js",
+  "repository": "https://github.com/shooksm/cypress-okta.git",
+  "scripts": {
+    "lint": "eslint src tests --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "cypress",
+    "cypress plugin",
+    "okta"
+  ],
+  "author": "Matthew Shooks <shooksm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@okta/okta-auth-js": "^2.6.0",
+    "cypress": "^3.3.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "@okta/okta-auth-js": "^2.0.0",
+    "cypress": "^3.0.0"
+  },
+  "dependencies": {
+    "@okta/configuration-validation": "^0.3.0"
+  }
+}
